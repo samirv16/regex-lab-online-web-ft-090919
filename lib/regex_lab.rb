@@ -14,7 +14,8 @@ end
 
 def words_five_letters_long(text)
 
- 
+ return_array = text.split(" ")
+  return_array.grep(/\b\w{5}\b/)
 
 end
 
